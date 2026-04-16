@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CMSVCCB4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9CMSVCCB4K');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chengdu Travel | Home</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #fffaf5;
+            color: #2c2a29;
+            line-height: 1.5;
+        }
+        .navbar {
+            background: rgba(255, 248, 240, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            padding: 1rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #c33c23;
+            letter-spacing: 1px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.8rem;
+            flex-wrap: wrap;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #4a3727;
+            font-weight: 600;
+            transition: 0.2s;
+            padding-bottom: 4px;
+        }
+        .nav-links a:hover, .nav-links a.active {
+            color: #c33c23;
+            border-bottom: 2px solid #c33c23;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url("images/195bc8a97ef3bbe4208c.webp");
+            background-size: cover;
+            background-position: center 30%;
+            height: 70vh;
+            min-height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero-text h1 {
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+            margin-bottom: 1rem;
+        }
+        .hero-text p {
+            font-size: 1.3rem;
+            background: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            border-radius: 40px;
+            backdrop-filter: blur(4px);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            color: #c33c23;
+            border-left: 6px solid #c33c23;
+            padding-left: 1rem;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .card {
+            background: white;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            transition: 0.25s ease;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 1rem 1rem 0.5rem;
+            font-size: 1.4rem;
+        }
+        .card p {
+            margin: 0 1rem 1rem;
+            color: #6b5a4a;
+        }
+        .btn {
+            display: inline-block;
+            background: #c33c23;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 40px;
+            text-decoration: none;
+            margin: 0 1rem 1rem;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            background: #a52e1a;
+        }
+        footer {
+            background: #2a241f;
+            color: #ccc;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        @media (max-width: 700px) {
+            .navbar { flex-direction: column; gap: 0.8rem; }
+            .hero-text h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🏮 Chengdu · Land of Abundance</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="page2.html">Attractions</a>
+            <a href="page3.html"> Food</a>
+            <a href="page4.html">Culture</a>
+            
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Chengdu · A City You Never Want to Leave</h1>
+            <p>Pandas · Hotpot · Ancient Shu · Slow Life</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">✨ Chengdu Impressions</h2>
+        <p style="font-size:1.2rem; margin-bottom:2rem;">Chengdu, capital of Sichuan Province and heart of the "Land of Abundance". With over 3,000 years of history, it's famous for its cuisine, giant pandas, and relaxed lifestyle. Consistently voted "China's Happiest City".</p>
+        
+        <h2 class="section-title">📸 Top Picks</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="images/kuanzhai-alley.jpg">
+                <h3>Kuanzhai Alley</h3>
+                <p>Ancient alleyways of the Qing Dynasty – a mix of history, culture and teahouses.</p>
+                <a href="attractions.html" class="btn">Explore →</a>
+            </div>
+            <div class="card">
+                <img src="images/images.jpg">
+                <h3>Giant Panda Base</h3>
+                <p>See cuddly pandas up close – the best place in the world to watch them.</p>
+                <a href="attractions.html" class="btn">Explore →</a>
+            </div>
+            <div class="card">
+                <img src="images/火锅.jpg">
+                <h3>Sichuan Hotpot</h3>
+                <p>Numbing, spicy, and addictive – the soul of Chengdu cuisine.</p>
+                <a href="food.html" class="btn">Explore →</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Chengdu Travel Guide | Slow down, enjoy the "Bashi" life</p>
+    </footer>
+</body>
+</html>
